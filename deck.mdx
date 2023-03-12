@@ -1,0 +1,39 @@
+import { Head } from "mdx-deck";
+import {
+  CodeSurfer,
+  CodeSurferColumns,
+  Step,
+} from "code-surfer";
+import { github, vsDark } from "@code-surfer/themes";
+
+export const theme = vsDark;
+
+export const Subheading = ({ text }) => (
+  <p style={{ color: "#00AA43" }}>{text}</p>
+);
+
+<Head>
+  <title>Code Aesthetics</title>
+</Head>
+
+# Code Aesthetics <Thing />
+
+<Subheading text="The Art of Writing Beautiful Code" />
+
+---
+
+---
+
+---
+
+<CodeSurfer>
+
+```js file=./src/code_1.js
+
+```
+
+</CodeSurfer>
+
+---
+
+## The End
