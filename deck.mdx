@@ -1,22 +1,10 @@
 import { Head } from "mdx-deck";
 import { CodeSurfer, CodeSurferColumns, Step } from "code-surfer";
-import { github, vsDark } from "@code-surfer/themes";
+import { nightOwl } from "@code-surfer/themes";
 
-export const theme = vsDark;
+import { Subheading, BuyMeACoffee } from "./src/components";
 
-export const Subheading = ({ text }) => (
-  <p style={{ color: "#00AA43" }}>{text}</p>
-);
-
-export const BuyMeACoffee = ({ text }) => (
-  <a href="https://www.buymeacoffee.com/kuncheria" target="_blank">
-    <img
-      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-      alt="Buy Me A Coffee"
-      style="height: 60px !important;width: 217px !important;"
-    />
-  </a>
-);
+export const theme = nightOwl;
 
 <Head>
   <title>Code Aesthetics</title>
@@ -29,6 +17,22 @@ export const BuyMeACoffee = ({ text }) => (
 ---
 
 ---
+
+<CodeSurfer theme={nightOwl}>
+
+```js 1 title="Title" subtitle="Look at the first line"
+console.log(1);
+console.log(2);
+console.log(3);
+```
+
+```js 2 title="Title" subtitle="and now the second"
+console.log(1);
+console.log(2);
+console.log(3);
+```
+
+</CodeSurfer>
 
 ---
 
