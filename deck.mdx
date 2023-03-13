@@ -1,15 +1,21 @@
 import { Head } from "mdx-deck";
-import {
-  CodeSurfer,
-  CodeSurferColumns,
-  Step,
-} from "code-surfer";
+import { CodeSurfer, CodeSurferColumns, Step } from "code-surfer";
 import { github, vsDark } from "@code-surfer/themes";
 
 export const theme = vsDark;
 
 export const Subheading = ({ text }) => (
   <p style={{ color: "#00AA43" }}>{text}</p>
+);
+
+export const BuyMeACoffee = ({ text }) => (
+  <a href="https://www.buymeacoffee.com/kuncheria" target="_blank">
+    <img
+      src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+      alt="Buy Me A Coffee"
+      style="height: 60px !important;width: 217px !important;"
+    />
+  </a>
 );
 
 <Head>
@@ -37,3 +43,5 @@ export const Subheading = ({ text }) => (
 ---
 
 ## The End
+
+<BuyMeACoffee />
