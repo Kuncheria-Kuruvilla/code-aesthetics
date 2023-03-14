@@ -1,9 +1,8 @@
 .fade-in {
-    animation: fadeInAnimation ease 1s;
+    animation: fadeInAnimation .7s ease 0s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;

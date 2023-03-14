@@ -9,7 +9,7 @@ export const Contents = () => {
       <ol>
         <li>What is code, who is it written for?</li>
         <li>Human friendly code</li>
-        <li>Art Craft & Empathy</li>
+        <li>Art, Craftsmanship & Empathy</li>
       </ol>
     </div>
   );

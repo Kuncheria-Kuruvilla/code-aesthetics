@@ -1,11 +1,29 @@
 import React from "react";
+import { CodeSurferColumns, Step } from "code-surfer";
+import { nightOwl } from "@code-surfer/themes";
 import { Heading } from "../Heading";
 import "../../common/common.css";
 
 export const WhatIsCode = () => {
   return (
     <div className="fade-in">
-      <Heading text="What is Code" />
+      <CodeSurferColumns themes={[nightOwl, nightOwl]}>
+        <Step>
+          <Heading text="What is Code" />
+          <></>
+        </Step>
+
+        <Step>
+          <Heading text="What is Code" />
+
+          <blockquote style={{ margin: "30px" }}>
+            A computer program is a sequence or set of instructions in a
+            programming language for a computer to execute. <br />
+            <br />
+            &mdash;<cite>Wikipedia</cite>
+          </blockquote>
+        </Step>
+      </CodeSurferColumns>
     </div>
   );
 };
