@@ -2,11 +2,11 @@ import React from "react";
 import { CodeSurferColumns, Step } from "code-surfer";
 import { nightOwl } from "@code-surfer/themes";
 import { Heading } from "../Heading";
-import "../../common/common.css";
+import { FadeIn } from "../FadeIn";
 
 export const WhatIsCode = () => {
   return (
-    <div className="fade-in">
+    <FadeIn>
       <CodeSurferColumns themes={[nightOwl, nightOwl]}>
         <Step>
           <Heading text="What is Code" />
@@ -24,6 +24,6 @@ export const WhatIsCode = () => {
           </blockquote>
         </Step>
       </CodeSurferColumns>
-    </div>
+    </FadeIn>
   );
 };
