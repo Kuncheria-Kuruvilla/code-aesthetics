@@ -8,7 +8,6 @@ import {
   BuyMeACoffee,
   Contents,
   WhatIsCode,
-  IsThatIt,
 } from "./src/components";
 
 export const theme = nightOwl;
@@ -31,7 +30,64 @@ export const theme = nightOwl;
 
 ---
 
-<IsThatIt />
+<CodeSurferColumns themes={[nightOwl, nightOwl]}>
+
+<Step>
+
+<Heading text="Is that it ?" />
+
+```js
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Is that it ?" />
+
+```js 1:2  subtitle="First came binary"
+01001000 01100101 01101100 01101100 01101111 00100000
+01110111 01101111 01110010 01101100 01100100 00100001
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Is that it ?" />
+
+```js 4:7 subtitle="Then came the assembly"
+01001000 01100101 01101100 01101100 01101111 00100000
+01110111 01101111 01110010 01101100 01100100 00100001
+
+LDA 2050
+MOV H, A
+LDA 2051
+ADD H
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Is that it ?" />
+
+```js 9 subtitle="And now we are here"
+01001000 01100101 01101100 01101100 01101111 00100000
+01110111 01101111 01110010 01101100 01100100 00100001
+
+LDA 2050
+MOV H, A
+LDA 2051
+ADD H
+
+print("Hello World")
+```
+
+</Step>
+
+</CodeSurferColumns>
 
 ---
 
