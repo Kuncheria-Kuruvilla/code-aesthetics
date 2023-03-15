@@ -8,7 +8,7 @@ export const Contents = () => {
       <Heading text="Contents" />
       <ol>
         <li>What is code, who is it written for?</li>
-        <li>Human friendly code</li>
+        <li>Human-centric code</li>
         <li>Art, Craftsmanship & Empathy</li>
       </ol>
     </FadeIn>

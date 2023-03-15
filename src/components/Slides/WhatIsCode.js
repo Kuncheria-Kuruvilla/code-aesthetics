@@ -16,7 +16,7 @@ export const WhatIsCode = () => {
         <Step>
           <Heading text="What is Code" />
 
-          <blockquote style={{ margin: "30px" }}>
+          <blockquote style={{ margin: "24px" }}>
             A computer program is a sequence or set of instructions in a
             programming language for a computer to execute. <br />
             <br />

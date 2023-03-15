@@ -8,6 +8,7 @@ import {
   BuyMeACoffee,
   Contents,
   WhatIsCode,
+  NamingThingsInCode,
 } from "./src/components";
 
 export const theme = nightOwl;
@@ -91,21 +92,77 @@ print("Hello World")
 
 ---
 
-<CodeSurfer theme={nightOwl}>
+<Heading text="Human-centric code" />
 
-```js 1 title="Title" subtitle="Look at the first line"
-console.log(1);
-console.log(2);
-console.log(3);
+---
+
+<NamingThingsInCode />
+
+---
+
+<CodeSurferColumns themes={[nightOwl, nightOwl]} sizes={[1, 2]}>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js title="Single letter names" subtitle="They don't tell you anything about the variable"
+int y;
 ```
 
-```js 2 title="Title" subtitle="and now the second"
-console.log(1);
-console.log(2);
-console.log(3);
+</Step>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js title="Single letter names" subtitle="They don't tell you anything about the variable"
+int y = m*x + b;
 ```
 
-</CodeSurfer>
+</Step>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js file=./src/code/abbreviation_1.js title="Never abbreviate"
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js 1[10:26],2[9:11],3[9:11],4[9:11],5[9:11],6[7],7[10:13,20:23],10[10:12,19:21],13[10:13,20:23] file=./src/code/abbreviation_1.js title="Never abbreviate" subtitle="What do they even mean ?"
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js 1[10:44],2[9:21],3[9:20],4[9:24],5[9:22],6[7:12],7[14:19,30:35],10[14:18,29:33],13[14:22,33:41] file=./src/code/abbreviation_2.js title="Never abbreviate"
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Bad naming patterns" />
+
+```js file=./src/code/abbreviation_2.js title="Never abbreviate" subtitle="Now the world is a better place"
+
+```
+
+</Step>
+
+</CodeSurferColumns>
 
 ---
 

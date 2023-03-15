@@ -1,3 +1,4 @@
 import { Contents } from "./Contents.js";
 import { WhatIsCode } from "./WhatIsCode.js";
-export { Contents, WhatIsCode };
+import { NamingThingsInCode } from "./NamingThingsInCode.js";
+export { Contents, WhatIsCode, NamingThingsInCode };
