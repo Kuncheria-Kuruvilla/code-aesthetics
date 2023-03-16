@@ -8,6 +8,7 @@ export const Heading = ({ text }) => {
         maxWidth: "70%",
         marginTop: "0px",
         marginBottom: "8px",
+        textShadow: "3px 3px #011627",
       }}
     >
       {words.map((word) => (
@@ -17,10 +18,10 @@ export const Heading = ({ text }) => {
             backgroundSize: "100% 1.2em",
             backgroundPosition: "0.5em 0px",
             backgroundRepeat: "no-repeat space",
-            paddingRight: "1em",
+            paddingRight: ".8em",
             marginRight: "-0.5em",
             backgroundImage:
-              "linear-gradient(transparent 55%,var(--theme-ui-colors-primary,#EF5350) 55%,var(--theme-ui-colors-primary,#EF5350) 95%,transparent 95%)",
+              "linear-gradient(transparent 55%,#EF5350 55%,#EF5350 95%,transparent 95%)",
           }}
         >
           {word}
