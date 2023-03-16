@@ -1,6 +1,6 @@
 import { Head } from "mdx-deck";
 import { CodeSurfer, CodeSurferColumns, Step } from "code-surfer";
-import { nightOwl } from "@code-surfer/themes";
+import { nightOwl, github } from "@code-surfer/themes";
 
 import {
   Heading,
@@ -9,6 +9,7 @@ import {
   Contents,
   WhatIsCode,
   NamingThingsInCode,
+  Denesting,
 } from "./src/components";
 
 export const theme = nightOwl;
@@ -217,6 +218,160 @@ int y = m*x + b;
 <Heading text="Bad naming patterns" />
 
 ```js file=./src/code/namingClasses_3.ts title="Naming a class 'Base' or 'Abstract'" subtitle="Over specify the child class"
+
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<Heading text="Never Nest" />
+
+---
+
+<CodeSurferColumns themes={[nightOwl, nightOwl]} sizes={[1, 2]}>
+
+<Step>
+
+<Heading text="Never Nest" />
+
+```c file=./src/code/threeDeepNesting_1.c subtitle="Has more innner blocks to a function"
+
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<Denesting />
+
+---
+
+<CodeSurferColumns themes={[nightOwl, nightOwl]} sizes={[1, 2]}>
+
+<Step>
+
+<Heading text="Extraction" />
+
+```c file=./src/code/extraction_1.c
+
+```
+
+</Step>
+  
+<Step>
+
+<Heading text="Extraction" />
+
+```c file=./src/code/extraction_2.c
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Inversion" />
+
+```c file=./src/code/inversion_1.c
+
+```
+
+</Step>
+
+<Step>
+
+<Heading text="Inversion" />
+
+```c file=./src/code/inversion_2.c
+
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<CodeSurferColumns themes={[ nightOwl,github]} >
+  
+<Step>
+
+```c file=./src/code/extraction_1.c
+
+```
+
+```c file=./src/code/inversion_2.c
+
+```
+
+</Step>
+
+</CodeSurferColumns>
+
+---
+
+<CodeSurferColumns themes={[ github, nightOwl ]} >
+
+<Step>
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+</Step>
+
+<Step>
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+```c file=./src/code/inversionExample_2.java
+
+```
+
+</Step>
+
+<Step>
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+```c file=./src/code/inversionExample_3.java
+
+```
+
+</Step>
+
+<Step>
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+```c file=./src/code/inversionExample_4.java
+
+```
+
+</Step>
+
+<Step>
+
+```c file=./src/code/inversionExample_1.java
+
+```
+
+```c file=./src/code/inversionExample_4.java
 
 ```
 

@@ -1,0 +1,23 @@
+void registerUser(String user)
+{
+    String[] parts = user.split(":");
+    if (parts.length != 2)
+    {
+        throw new IllegalArgumentException("Invalid user string:" + user);
+    }
+    int userId = Integer.parseInt(parts[0]);
+    if (userId < 0)
+    {
+        throw new IllegalArgumentException("Invalid user id:" + userId);
+    }
+
+    String userName = parts[1];
+    if (users.containsKey(userId))
+    {
+        users.get(userId).setName(userName);
+    }
+    else
+    {
+        users.put(userId, new User(userName));
+    }
+}
