@@ -267,7 +267,7 @@ int y = m*x + b;
 
 <Heading text="Extraction" />
 
-```c file=./src/code/extraction_2.c
+```c file=./src/code/extraction_2.c subtitle="Move the filtering logic to a separate function"
 
 ```
 
@@ -277,7 +277,7 @@ int y = m*x + b;
 
 <Heading text="Inversion" />
 
-```c file=./src/code/inversion_1.c
+```c file=./src/code/inversion_1.c subtitle="Let's invert the conditon next"
 
 ```
 
@@ -287,7 +287,7 @@ int y = m*x + b;
 
 <Heading text="Inversion" />
 
-```c file=./src/code/inversion_2.c
+```c file=./src/code/inversion_2.c subtitle="Thus eliminating one level of nesting"
 
 ```
 
@@ -301,11 +301,11 @@ int y = m*x + b;
   
 <Step>
 
-```c file=./src/code/extraction_1.c
+```c file=./src/code/extraction_1.c title="Before"
 
 ```
 
-```c file=./src/code/inversion_2.c
+```c file=./src/code/inversion_2.c title="After"
 
 ```
 
@@ -317,7 +317,7 @@ int y = m*x + b;
 
 <CodeSurferColumns themes={[ github, nightOwl ]} >
 
-<Step>
+<Step subtitle="Lots of conditions to check">
 
 ```c file=./src/code/inversionExample_1.java
 
@@ -329,7 +329,7 @@ int y = m*x + b;
 
 </Step>
 
-<Step>
+<Step subtitle="Apply inversion over and over">
 
 ```c file=./src/code/inversionExample_1.java
 
@@ -365,7 +365,7 @@ int y = m*x + b;
 
 </Step>
 
-<Step>
+<Step subtitle="Separates the code in to 2 sections, a gatekeeping part and the crux of the functionality">
 
 ```c file=./src/code/inversionExample_1.java
 
@@ -378,16 +378,6 @@ int y = m*x + b;
 </Step>
 
 </CodeSurferColumns>
-
----
-
-<CodeSurfer>
-
-```js file=./src/code_1.js
-
-```
-
-</CodeSurfer>
 
 ---
 
