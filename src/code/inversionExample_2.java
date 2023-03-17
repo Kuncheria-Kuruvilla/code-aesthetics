@@ -2,7 +2,6 @@ void registerUser(String user)
 {
     String[] parts = user.split(":");
     if (parts.length != 2)
-
     {
         throw new IllegalArgumentException("Invalid user string:" + user);
     }
