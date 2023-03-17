@@ -1,4 +1,4 @@
-int filterNumber(int number)
+int filterEvenNumber(int number)
 {
     if (number % 2 == 0)
     {
@@ -17,7 +17,7 @@ int calculate(int bottom, int top)
     int sum = 0;
     for (int number = bottom; number <= top; number++)
     {
-        sum += filterNumber(number);
+        sum += filterEvenNumber(number);
     }
     return sum;
 }
