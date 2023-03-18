@@ -9,12 +9,11 @@ export const WhatIsCode = () => {
     <FadeIn>
       <CodeSurferColumns themes={[nightOwl, nightOwl]}>
         <Step>
-          <Heading text="What is Code" />
-          <></>
+          <Heading text="What is Code ?" />
         </Step>
 
         <Step>
-          <Heading text="What is Code" />
+          <Heading text="What is Code ?" />
 
           <blockquote style={{ margin: "24px" }}>
             A computer program is a sequence or set of instructions in a
