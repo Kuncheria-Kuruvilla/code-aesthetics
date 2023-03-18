@@ -10,6 +10,7 @@ export const WhatIsCode = () => {
       <CodeSurferColumns themes={[nightOwl, nightOwl]}>
         <Step>
           <Heading text="What is Code ?" />
+          <></>
         </Step>
 
         <Step>
