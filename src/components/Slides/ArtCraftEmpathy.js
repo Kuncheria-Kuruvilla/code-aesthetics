@@ -16,6 +16,8 @@ export const ArtCraftEmpathy = () => {
               <li>Have an artist's mindset</li>
               <li>Appreciate the craftsmanship</li>
               <li>Empathetic to your fellow developers</li>
+              <li>The boy scout rule</li>
+              <li>Refactor, Refactor, Refactor</li>
             </ul>
           </div>
         </Step>
