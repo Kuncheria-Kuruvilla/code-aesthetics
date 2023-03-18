@@ -4,6 +4,7 @@ import { NamingThingsInCode } from "./NamingThingsInCode.js";
 import { Denesting } from "./Denesting.js";
 import { CommentsVsDocumentation } from "./CommentsVsDocumentation.js";
 import { ArtCraftEmpathy } from "./ArtCraftEmpathy.js";
+import { End } from "./End.js";
 export {
   Contents,
   WhatIsCode,
@@ -11,4 +12,5 @@ export {
   Denesting,
   CommentsVsDocumentation,
   ArtCraftEmpathy,
+  End,
 };
