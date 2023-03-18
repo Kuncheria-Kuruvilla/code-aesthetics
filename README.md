@@ -1,6 +1,6 @@
 # Code Aesthetics
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ed52a0c8-ace9-4664-8bad-296cc874185f/deploy-status)](https://app.netlify.com/sites/code-aesthetics-kuncheria/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ed52a0c8-ace9-4664-8bad-296cc874185f/deploy-status)](https://app.netlify.com/sites/code-aesthetics/deploys)
 
 This project was generated with the `npm init code-surfer-deck` command.
 
