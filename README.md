@@ -1,3 +1,4 @@
+![](docs/code_aesthetics.png)
 # Code Aesthetics
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed52a0c8-ace9-4664-8bad-296cc874185f/deploy-status)](https://app.netlify.com/sites/code-aesthetics/deploys)
