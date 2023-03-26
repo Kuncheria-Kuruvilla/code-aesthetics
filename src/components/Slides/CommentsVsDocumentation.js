@@ -18,7 +18,7 @@ export const CommentsVsDocumentation = () => {
           Code <span style={{ color: "#A599E9" }}>Comments</span>
         </p>
         <p style={{ marginLeft: "30px" }}>
-          How the code is <span style={{ color: "#ffeb95cc" }}>Used</span>
+          How the code <span style={{ color: "#ffeb95cc" }}>Works</span>
         </p>
       </div>
     </FadeIn>
