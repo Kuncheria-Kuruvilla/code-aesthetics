@@ -4,3 +4,4 @@ export * from "./Heading";
 export * from "./Slides";
 export * from "./FadeIn";
 export * from "./GithubLink";
+export * from "./KeyBoardShortcuts.js";

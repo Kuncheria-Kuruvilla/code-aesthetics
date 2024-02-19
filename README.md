@@ -29,7 +29,7 @@ and it will stay in sync with the other window.
 | ----------- | -------------------------------------------- |
 | Left Arrow, Page Up, Shift + Space  | Go to previous slide (or step in [Steps][]) |
 | Right Arrow, Page Down, Space | Go to next slide (or step in [Steps][])     |
-| Option + P  | Toggle [Presenter Mode](#presenter-mode)     |
+| Option + P  | Toggle [Presenter Mode](https://github.com/jxnblk/mdx-deck?tab=readme-ov-file#presenter-mode)     |
 | Option + O  | Toggle Overview Mode
 | Option + G  | Toggle Grid Mode
 
